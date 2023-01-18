@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea,
+select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 0;
+}
+
+body {
+    background-color: #fff257;
+}
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #fff257;
+    z-index: 100;
+}
+
+.leftnav {
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background-color: #33793f;
+    z-index: 200;
+}
+
+.topnav button.material-icons.md-36 {
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    right: 0;
+    color: #fff257;
+    background-color: #33793f;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.leftnav button.material-icons.md-36 {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 40px;
+    height: 40px;
+    color: #fff257;
+    background-color: #33793f;
+    font-size: 36px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 60px;
+    padding: 80px 60px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    background-color: #fff257;
+}
+
+.card {
+    flex-basis: auto;
+    margin: 50px 10px;
+    width: 340px;
+    background-color: #fff257;
+    border: solid 1px #33793f;
+}
+
+.textcontainer {
+    padding: 10px 10px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    flex-basis: auto;
+    padding: 20px 0;
+    color: #33793f;
+    width: auto;
+    min-height: 62px;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.sub {
+    position: relative;
+    top: -10px;
+    right: -200px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #fff257;
+    background-color: #33793f;
+}
+
+.text {
+    position: relative;
+    width: auto;
+    min-height: 200px;
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #33793f;
+}
+
+.card button {
+    position: relative;
+    bottom: 0;
+    text-align: left;
+    padding-left: 8px;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    background-color: #33793f;
+    color: #fff257;
+}
+
+.card button .material-icons.md-36 {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    color: #fff257;
+    font-size: 18px;
+}
+
+.card button:hover {
+    background-color: #fff257;
+    color: #33793f;
+    border: solid 1px #33793f
+}
+
+.card button:hover .material-icons.md-36 {
+    color: #33793f;
+}
